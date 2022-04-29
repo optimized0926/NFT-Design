@@ -1,0 +1,363 @@
+
+@font-face {
+  font-family: 'CocoSharp Trial Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('CocoSharp Trial Regular'), url("./assets/fonts/cocosharp/Coco-Sharp-Regular-trial.ttf") format('ttf');
+}
+
+@font-face {
+  font-family: 'Network Free Version Regular';
+  font-style: normal;
+  font-weight: normal;
+  src: local('Network Free Version Regular'), url("./assets/fonts/NetworkFreeVersion.woff") format('woff');
+}
+
+.cocosharp-font {
+  font-family: 'CocoSharp Trial Regular';
+}
+
+.network-font {
+  font-family: 'Network Free Version Regular';
+}
+
+.App {
+  text-align: center;
+}
+
+.App-header {
+  min-height: 100vh;
+  color: white;
+}
+
+.component-header {
+  color: #eb335e;
+  font-size: 6vw;
+}
+
+/* HOME CSS */
+
+.homepage {
+  background-image: url("./assets/img/homepage/Doodles-Background-new.png");
+  background-color: #1b1e22;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.header-navbar {
+  font-family: CocoSharp Trial Regular;
+  font-size: 1.5vw;
+}
+
+@media (max-width: 576px) {
+  .header-navbar {
+    font-size: 3vw;
+  }
+}
+
+.community-icon {
+  width: 2vw;
+  height: 2vw;
+  min-width: 25px;
+  min-height: 25px;
+}
+
+
+.navbar-toggler-icon {
+  background: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(0, 0, 0, 0.5)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E") !important;
+}
+
+.homepage-logo {
+  width: 33vw;
+  min-width: 200px;
+  position: relative;
+  top: 5vw;
+  z-index: 1;
+}
+
+@media (max-width: 992px) {
+  .App-header: {
+    background-color: rgba(255,255,255,0.1);
+  }
+  .custom-navbar-header {
+    position: absolute !important;
+    width: 100%;
+    z-index: 10;
+  }
+}
+
+@media (max-width: 576px) {
+  .homepage-logo {
+    /* width: 50%; */
+  }
+}
+
+/*--------------------------------- BEYOND CSS ------------------------ */
+
+.main-beyond {
+  background-color: #343a40;
+  position: relative;
+  overflow: hidden;
+}
+
+.logo-text {
+  color: #eb335e;
+  font-size: 8vw;
+  padding-top: 100px;
+}
+
+.beyond-text-header {
+  font-size: 2vw;
+}
+
+.beyond-text-content {
+  font-size: 1.5vw;
+  letter-spacing: 3px;
+  line-height: 2.5rem;
+}
+
+.beyond-text-footer {
+  font-size: 3.5vw;
+}
+
+@media (max-width: 1200px) {
+  .logo-text {
+    font-size: 7vw;
+  }
+  .beyond-text-header {
+    font-size: 2.2vw;
+  }
+  .beyond-text-content {
+    font-size: 2vw;
+  }
+  .beyond-text-footer {
+    font-size: 2.5vw;
+  }
+}
+
+@media (max-width: 768px) {
+  .beyond-text-content {
+    line-height: 2rem;
+    font-size:3vw;
+  }
+  .beyond-text-footer {
+    font-size: 2.3vw;
+  }
+}
+
+.diamond, .bear, .bull, .cup {
+  position: absolute;
+  width: 14%;
+}
+
+.diamond {
+  left: 5%;
+  top: 30px;
+}
+
+.bear {
+  right: 0;
+  top: 60px;
+}
+
+.bull {
+  left: 0;
+  bottom: 0;
+}
+
+.cup {
+  right: 0;
+  bottom: 0px;
+}
+
+
+/* SUB BEYOND */
+
+.sub-beyond {
+  background-color: #1b1e22;
+  z-index: 20;
+  overflow: hidden;
+}
+
+.sub-logo {
+  width: 20%;
+}
+
+.sub-beyond-img-wrapper {
+  height: 32vw;
+  z-index: 4;
+}
+
+.sub-beyond-img {
+  width: 30%;
+  position: absolute;
+  bottom: 0;
+}
+
+.alexlitpng {
+  width: 28%;
+  left: -2%;
+  z-index: 5;
+}
+
+.mmpmg {
+  width: 37%;
+  left: 17%;
+  z-index: 4;
+}
+
+.pngcyber {
+  width: 34%;
+  right: 21%;
+  z-index: 3;
+}
+
+.methusa {
+  width: 35%;
+  right: -4%;
+  z-index: 2;
+}
+
+
+/* ----------------------- MINDMAP ----------------- */
+.mindmap {
+  padding-top: 1vw;
+}
+
+.component {
+  background: #1b1e22;
+}
+
+.mindmap-logo {
+  width: 100%;
+}
+
+.mindmap-img {
+  width: 100%;
+}
+
+.mindmap-img {
+  padding: 10px 0 !important;
+}
+
+.mindmap-img-right {
+  padding-left: 10px !important;
+}
+
+@media (max-width: 768px) {
+  .mindmap-img-right {
+    padding-left: 0 !important;
+  }
+}
+
+/*----- VISION -----*/
+
+.sub-component-wrapper {
+  gap: 20px;
+}
+
+.sub-component {
+  background-color: #ffffff;
+  border-radius: 2vw;
+}
+
+.sub-component-text {
+  color: #343a40;
+}
+
+.sub-component-text-header {
+  font-size: 6vw;
+}
+
+.sub-component-text-content {
+  text-align: left;
+  font-size: 2.3vw;
+  padding-bottom: 10vw;
+}
+
+.vision-logo {
+  width: 30%;
+  bottom: 3vw;
+  right: 0;
+}
+
+.sub-component-logo {
+  width: 30%;
+  bottom: 0;
+  right: 0;
+  border-radius: 2vw;
+}
+
+.community-teaming-img-wrapper {
+  width: 60%;
+}
+
+.community-teaming-img {
+  width: 10vw;
+  height:10vw;
+}
+
+.bg-red {
+  font-size: 1.5vw;
+  padding: 5px;
+  color: white;
+  background: #eb335e;
+}
+
+.metaverse-logo {
+  width: 38vw;
+  right: 1vw;
+}
+
+.airdrops-logo {
+  width: 38vw;
+}
+
+.investment-key-logo {
+  width: 23vw;
+}
+
+
+/*---------- BAGS -----------*/
+
+.bags-img-wrapper, .teams-img-wrapper {
+  gap: 30px;
+}
+
+.bags-img {
+  width: 16vw;
+}
+
+.bags-text-content, .teams-text-content {
+  font-size: 2.5vw;
+}
+
+/* ------------------- TEAMS --------------- */
+
+.drawing-up-left {
+  width: 13vw;
+  top: 1vw;
+  left: 8vw;
+}
+
+.drawing-right {
+  width: 19vw;
+  right: 4vw;
+  bottom: 0;
+}
+
+.teams-img-wrapper {
+  padding-bottom: 15vw;
+}
+
+.sub-teams-component {
+  border-radius: 2vw;
+}
+
+.component-text-header {
+  font-size: 3vw;
+}
+
+.component-text-content {
+  font-size: 2VW;
+}
